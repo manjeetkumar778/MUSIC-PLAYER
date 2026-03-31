@@ -155,3 +155,26 @@ header {
     background: #00c3ff;
 }
 
+@media (max-width: 480px) {
+    .container {
+        padding: 10px;
+    }
+
+    .player-img {
+        height: 200px;
+    }
+
+    .controls button {
+        font-size: 18px;
+        padding: 8px;
+    }
+
+    .song-title {
+        font-size: 16px;
+    }
+
+    .song-artist,
+    .song-album {
+        font-size: 12px;
+    }
+}
